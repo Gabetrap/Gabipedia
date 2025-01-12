@@ -1,0 +1,66 @@
+h1{ 
+    color: rgb(66, 68, 230);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{ 
+    color: black;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: linear-gradient(to right, #979797, #3d3d3d);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px
+}
+
+header::before {
+    content: ''; 
+    display: block;
+    width: 70px; 
+    height: 70px; 
+    margin-right: 10px; 
+    background-image: url(logo.png); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+body {
+    margin: 0; 
+    height: 100vh; 
+    background: linear-gradient(to bottom, rgb(207, 206, 206), rgb(80, 80, 80));
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+}
+header {
+background-color: #343534; 
+color: white; 
+padding: 5px 10px; 
+text-align: right; 
+font-size: 18px; 
+}
+
+
+header nav a {
+color: white; 
+text-decoration: none; 
+margin: 0 10px; 
+font-size: 10px; 
+}
+
+header nav a:hover {
+text-decoration: underline; 
+}
